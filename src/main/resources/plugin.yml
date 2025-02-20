@@ -1,0 +1,16 @@
+name: prdxrename
+version: '1.0'
+main: xnaxger.prdxrename.Prdxrename
+api-version: '1.21'
+load: STARTUP
+authors: [ Xnaxger ]
+description: nametagitemeditor
+commands:
+  setlore:
+    description: Описание предмета
+    usage: /setlore Номер строки Текст
+    permission: setlore.use
+  setname:
+    description: Название предмета
+    usage: /setname Новое название предмета
+    permission: setname.use
